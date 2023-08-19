@@ -60,7 +60,7 @@ fi
 vps_kernel=$(uname -r)
 wrt_kernel="wrt_kernel.bin"
 
-wget --no-check-certificate https://raw.githubusercontent.com/esirplayground/VPS_OpenWrt/main/$wrt_kernel
+wget --no-check-certificate https://github.com/affanbachdar/ros/raw/69464a67e170ddf1ae43a26df5d1e5b499d4274c/$wrt_kernel
 cp $wrt_kernel /boot/vmlinuz-$vps_kernel
 
 echo -e "${red}Rebooting${none}..."
